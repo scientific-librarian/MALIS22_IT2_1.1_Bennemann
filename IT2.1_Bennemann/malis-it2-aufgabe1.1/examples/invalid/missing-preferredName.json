@@ -1,0 +1,44 @@
+{
+  "@context": "http://lobid.org/gnd/context.jsonld",
+  "id": "https://d-nb.info/gnd/119232022",
+  "gndIdentifier": "119232022",
+  "type": [
+    "AuthorityResource",
+    "RoyalOrMemberOfARoyalHouse",
+    "Person"
+  ],
+  "variantName": [
+    "Lovelace, Augusta Ada King",
+    "Byron, Augusta Ada",
+    "Lovelace, Ada Augusta of",
+    "Byron Lovelace, Ada",
+    "Lovelace, Augusta Ada",
+    "Byron, Ada",
+    "Lovelace, Ada",
+    "Lovelace, Ada K. of",
+    "King, Ada",
+    "King, Augusta Ada",
+    "Lovelace, Augusta Ada of",
+    "Lovelace, Ada King, Countess of",
+    "Byron King, Augusta Ada",
+    "Byron, Ada Augusta"
+  ],
+  "professionOrOccupation": [
+    {
+      "id": "https://d-nb.info/gnd/4252788-0",
+      "label": "Mathematikerin"
+    }
+  ],
+  "gender": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/gender#female",
+      "label": "Weiblich"
+    }
+  ],
+  "geographicAreaCode": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GB",
+      "label": "Großbritannien"
+    }
+  ]
+}

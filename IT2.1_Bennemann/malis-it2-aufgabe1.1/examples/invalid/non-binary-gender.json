@@ -1,0 +1,46 @@
+{
+  "@context": "http://lobid.org/gnd/context.jsonld",
+  "id": "https://d-nb.info/gnd/1078122261",
+  "gndIdentifier": "1078122261",
+  "type": [
+    "Person",
+    "AuthorityResource"
+  ],
+  "preferredName": "Blanco, Mykki",
+  "variantName": [
+    "Mykki Blanco",
+    "Quattlebaum, Michael",
+    "Quattlebaum, Michael David, Jr.",
+    "Mykki, Rapmusiker"
+  ],
+  "professionOrOccupation": [
+    {
+      "id": "https://d-nb.info/gnd/4040841-3",
+      "label": "Musiker"
+    },
+    {
+      "id": "https://d-nb.info/gnd/7545699-0",
+      "label": "Performancekünstler"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4053309-8",
+      "label": "Schriftsteller"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4303534-6",
+      "label": "Rapmusiker"
+    }
+  ],
+  "gender": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/gender#transWoman",
+      "label": "Transfrau"
+    }
+  ],
+  "geographicAreaCode": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US",
+      "label": "USA"
+    }
+  ]
+}

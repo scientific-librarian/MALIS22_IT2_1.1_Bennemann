@@ -1,0 +1,7 @@
+{
+  "$id": "preferredName.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Vorzugsbezeichnung",
+  "description": "Das Schema für das preferredName-Feld",
+  "type" : "string"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "http://lobid.org/gnd/context.jsonld",
+  "id": "https://d-nb.info/gnd/124767095",
+  "gndIdentifier": [
+    "124767095"
+  ],
+  "type": [
+    "AuthorityResource",
+    "Person"
+  ],
+  "preferredName": "Chavarrías, Antonio",
+  "professionOrOccupation": [
+    {
+      "id": "https://d-nb.info/gnd/4294338-3",
+      "label": "Drehbuchautor"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4175820-1",
+      "label": "Produzent"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4324247-9",
+      "label": "Filmproduzent"
+    }
+  ],
+  "gender": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/gender#male",
+      "label": "Männlich"
+    }
+  ],
+  "geographicAreaCode": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-ES",
+      "label": "Spanien"
+    }
+  ]
+}

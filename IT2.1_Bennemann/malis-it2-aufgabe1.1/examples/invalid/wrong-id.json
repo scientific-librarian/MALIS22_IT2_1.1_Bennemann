@@ -1,0 +1,32 @@
+{
+  "@context": "http://lobid.org/gnd/context.jsonld",
+  "id": "d-nb.info/gnd/123191580",
+  "gndIdentifier": "123191580",
+  "type": [
+    "AuthorityResource",
+    "Person"
+  ],
+  "preferredName": "Hermanson, Marie",
+  "professionOrOccupation": [
+    {
+      "id": "https://d-nb.info/gnd/4028786-5",
+      "label": "Journalistin"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4053311-6",
+      "label": "Schriftstellerin"
+    }
+  ],
+  "gender": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/gender#female",
+      "label": "Weiblich"
+    }
+  ],
+  "geographicAreaCode": [
+    {
+      "id": "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-SE",
+      "label": "Schweden"
+    }
+  ]
+}

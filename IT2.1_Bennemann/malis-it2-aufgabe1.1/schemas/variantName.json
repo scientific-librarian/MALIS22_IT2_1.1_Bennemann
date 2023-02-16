@@ -1,0 +1,7 @@
+{
+  "$id": "variantName.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Verweisungsform",
+  "description": "Das Schema für das variantName-Feld",
+  "type" : "array"
+}
