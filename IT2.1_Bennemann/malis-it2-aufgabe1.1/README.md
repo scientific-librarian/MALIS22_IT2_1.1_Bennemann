@@ -133,3 +133,174 @@ Viel Erfolg!
 * Für manche Anpassungen muss eine *Regular Expression* geschrieben werden. Dafür gibt es auch hilfreiche Online-Tools, z.B.:
   * [RegExr](https://regexr.com/)
   * [RegEx101](https://regex101.com/)
+  
+  
+  Output test.sh nach Schema Anwendung:
+  
+  $ ./test.sh
+examples/valid/1078122261.json passed test
+examples/valid/119232022.json passed test
+examples/valid/123191580.json passed test
+examples/valid/124767095.json passed test
+examples/invalid/gender-without-array.json passed test
+[
+  {
+    instancePath: '/gender',
+    schemaPath: 'gender.json/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+examples/invalid/id-as-array.json passed test
+[
+  {
+    instancePath: '/gndIdentifier',
+    schemaPath: 'gndIdentifier.json/type',
+    keyword: 'type',
+    params: { type: 'string' },
+    message: 'must be string'
+  }
+]
+examples/invalid/missing-context.json passed test
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: '@context' },
+    message: "must have required property '@context'"
+  }
+]
+examples/invalid/missing-default-type.json passed test
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'type.json/contains',
+    keyword: 'contains',
+    params: { minContains: 1 },
+    message: 'must contain at least 1 valid item(s)'
+  }
+]
+examples/invalid/missing-gndIdentifier.json passed test
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: 'gndIdentifier' },
+    message: "must have required property 'gndIdentifier'"
+  }
+]
+examples/invalid/missing-id.json passed test
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: 'id' },
+    message: "must have required property 'id'"
+  }
+]
+examples/invalid/missing-preferredName.json passed test
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: 'preferredName' },
+    message: "must have required property 'preferredName'"
+  }
+]
+examples/invalid/missingType.json passed test
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: 'type' },
+    message: "must have required property 'type'"
+  }
+]
+examples/invalid/non-binary-gender.json passed test
+[
+  {
+    instancePath: '/gender/0/label',
+    schemaPath: 'gender.json/items/properties/label/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+examples/invalid/preferredName-as-array.json passed test
+[
+  {
+    instancePath: '/preferredName',
+    schemaPath: 'preferredName.json/type',
+    keyword: 'type',
+    params: { type: 'string' },
+    message: 'must be string'
+  }
+]
+examples/invalid/profession-without-array.json passed test
+[
+  {
+    instancePath: '/professionOrOccupation',
+    schemaPath: 'professionOrOccupation.json/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+examples/invalid/variant-name-without-array.json passed test
+[
+  {
+    instancePath: '/variantName',
+    schemaPath: 'variantName.json/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+examples/invalid/wrong-context.json passed test
+[
+  {
+    instancePath: '/@context',
+    schemaPath: 'context-schema.json/const',
+    keyword: 'const',
+    params: { allowedValue: 'http://lobid.org/gnd/context.jsonld' },
+    message: 'must be equal to constant'
+  }
+]
+examples/invalid/wrong-geographic-are-code.json passed test
+[
+  {
+    instancePath: '/geographicAreaCode/0/id',
+    schemaPath: 'geographicAreaCode.json/items/properties/id/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+examples/invalid/wrong-id.json passed test
+[
+  {
+    instancePath: '/id',
+    schemaPath: 'id.json/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+examples/invalid/wrong-profession-id.json passed test
+[
+  {
+    instancePath: '/professionOrOccupation/0/id',
+    schemaPath: 'professionOrOccupation.json/items/properties/id/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+All tests PASSED
+
